@@ -1,0 +1,35 @@
+# Rendered output
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.png
+!docs/**/*.png
+!docs/**/*.gif
+frames/
+out/
+
+# Generated timing data
+cfg.json
+
+# Kokoro model files (download separately)
+*.onnx
+voices-*.bin
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node (Three.js scenes)
+node_modules/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets
+.env
