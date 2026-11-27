@@ -45,7 +45,7 @@ playwright install chromium
 
 - [x] Repo setup
 - [x] `core/voice.py`: shared TTS wrapper and pronunciation overrides
-- [ ] `core/captions.py`: one caption-timing algorithm (currently two variants)
+- [x] `core/captions.py`: one caption-timing algorithm for phrase and word captions
 - [ ] `core/render.py`: shared Chromium → ffmpeg renderer
 - [ ] Move all six formats onto the core
 - [ ] Scripts as YAML instead of Python lists
