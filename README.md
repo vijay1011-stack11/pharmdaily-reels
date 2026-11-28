@@ -46,7 +46,7 @@ playwright install chromium
 - [x] Repo setup
 - [x] `core/voice.py`: shared TTS wrapper and pronunciation overrides
 - [x] `core/captions.py`: one caption-timing algorithm for phrase and word captions
-- [ ] `core/render.py`: shared Chromium → ffmpeg renderer
+- [x] `core/render.py`: shared Chromium → ffmpeg renderer
 - [ ] Move all six formats onto the core
 - [ ] Scripts as YAML instead of Python lists
 - [ ] Single CLI: `python -m reels build dotd scripts/amlodipine.yaml`
